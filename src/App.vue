@@ -24,16 +24,16 @@
         </tr>
         <tr>
           <td>
-            <input type="hidden" v-model="statue.id">
+            <input type="hidden"  v-model="statue.id">
           </td>
           <td>
-            <input type="text" v-model="statue.person">
+            <input type="text"  v-model="statue.person">
           </td>
           <td>
-            <input type="number" v-model="statue.height">
+            <input type="number"  v-model="statue.height">
           </td>
           <td>
-            <input type="number" v-model="statue.price">
+            <input type="number"  v-model="statue.price">
           </td>
           <td>
             <button v-if="mod_new" @click="newStatue" :disabled="saving">Létrehoz</button>
